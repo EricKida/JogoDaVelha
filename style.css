@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #121212;
+    color: #fff;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+h1{
+    text-align: center;
+}
+
+.game{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.game button{
+    width: 100px;
+    height: 100px;
+    transform: scale(1,1);
+    margin: 5px;
+    cursor: pointer;
+    font-size: 50px;
+    background: #121212;
+    border-color: white;
+    transition: 0.2s ease;
+    color: white;
+}
+
+.game button:hover{
+    transform: scale(1.1,1.1);
+    background: #2c2c2c;
+}
+
+.areaGame{
+    width: 300px;
+}
